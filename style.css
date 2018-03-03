@@ -1,0 +1,133 @@
+html, body {margin: 0;}
+
+body {background-color: #F0ECEC;font-family: 'Cairo', sans-serif;}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.header {
+
+}
+
+.flex {
+	display: flex;
+}
+
+.topbar {
+	height: 0.5vh;
+	background-color: #000;
+}
+
+.navbar {
+	font-family: 'Fjalla One', 'Bebas Kai', 'Bebas', sans-serif;
+	height: 10vh;
+	align-items: center;
+}
+
+#navbar-left {
+	flex: 1;
+	font-size: 2em;
+	text-align: left;
+	padding-left: 2vw;
+}
+
+#navbar-right {
+	flex: 1;
+	font-size: 1.5em;
+	text-align: right;
+	padding-right: 2vw;
+}
+
+.logo {
+	text-align: center;
+	padding: 2vw;
+	font-size: 1.5em;
+}
+
+.logo img {
+    max-width: 60%;
+    height: auto;
+}
+
+.content-wrapper {
+	max-width: 65%;
+	margin: auto;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.works {
+	height: 350px;
+	width: 300px;
+	margin: 2vw;
+	line-height: 100%;
+	text-align: center;
+}
+
+.img-container {
+/*	height: 300px;
+	width: 300px;*/
+	position: relative;
+}
+
+.img-container img {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.img-container:hover img{
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.50);
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.70);
+	transition: 0.2s ease;
+	opacity: 0.5;
+}
+
+.hover img{
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.50);
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.70);
+	transition: 0.2s ease;
+	opacity: 0.5;	
+}
+
+.img-container:hover .img-overlay {
+	opacity: 1;
+}
+
+.hover .img-overlay {
+	opacity: 1;
+}
+
+.img-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-70%, -50%);
+/*  margin: -150px 0 0 -150px;*/
+  text-align: center;
+}
+
+.labels {
+	padding-top: 1vh;
+}
+
+.activeDiv {
+	background-color: black;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 5em;
+}
