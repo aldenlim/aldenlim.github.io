@@ -7,6 +7,14 @@ a {
 	text-decoration: inherit;
 }
 
+hr {
+
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 50%;
+}
+
 .header {
 
 }
@@ -70,27 +78,28 @@ a {
 
 .filter-options {
 	font-family: 'Cairo', sans-serif;
-	font-size: 1.5em;
-	background-color: none;
+	font-size: 1.2em;
+	background-color: transparent;
 	margin: 0.5vw;
-	border: dashed;
-	border-radius: 0.7em;
-	border-width: 0.1em;
+	border:	solid;
+	border-radius: 1em;
+	border-width: 0.05em;
 	text-decoration: none;
-	padding: 0px 5px;
+	padding: 0px 50px;
 	border-color: darkgrey;
 	outline: none;
 	cursor: pointer;
 }
 
 .filter-options:hover {
-	border-color: black;
+	border-color: #262626;
 }
 
 .active {
-	background-color: #000;
+	background-color: #262626;
 	color: #fff;
-	border-color: black;
+	border-width: 0.05em;
+	border-color: transparent;
 }
 .works {
 	height: 350px;
