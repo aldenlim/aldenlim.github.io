@@ -15,6 +15,19 @@ $(document).ready(function(){
 	    works.eq(target).before(works.eq(target2));
 	};
 
+	var $boxs = $("#content-wrapper > .works");
+	var $btns = $(".filter-options").on("click", function() {
+		console.log("filter clicked");
+		var active =
+			$btns.removeClass("active")
+				.filter(this)
+				.addClass("active")
+				.data("filter");
+		$boxs
+			.hide()
+			.filter("." + active)
+			.fadeIn(450);
+	});
 });
 
 $(window).on("resize scroll", function() {
@@ -34,3 +47,4 @@ $(window).on("resize scroll", function() {
 		});
 	};
 });
+

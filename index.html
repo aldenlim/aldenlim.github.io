@@ -21,8 +21,14 @@
 			<p> Designing for satisfaction and the creation of value across all kinds of medium.
 		</div>
 	</div>
-	<div class="content-wrapper flex">
-		<div class="works game download" id="cracks" data-value="cracks">
+		<div class="filter" id="filter">
+			<button class="active filter-options" data-filter="works">ALL</button>
+			<button class="filter-options" data-filter="design">DESIGN</button>			
+			<button class="filter-options" data-filter="copy">COPYWRITING</button>				
+		</div>
+	<div class="content-wrapper flex" id="content-wrapper">
+
+		<div class="works design game download" id="cracks" data-value="cracks">
 			<div class="img-container">
 				<img src="img/cracks.png">
 				<a href="https://drive.google.com/drive/folders/0B-oejg2PFKfmUUJ3ZjhsSXNYbkk?usp=sharing" target="_blank">
@@ -34,7 +40,7 @@
 			</div>
 			<div class="labels"><strong>Cracks</strong><br>Art Game</div>
 		</div>
-		<div class="works game video" id="catsanddogs" data-value="catsanddogs">
+		<div class="works design game video" id="catsanddogs" data-value="catsanddogs">
 			<div class="img-container">
 				<img src="img/catsanddogs.png">
 				<a href="https://www.youtube.com/watch?v=nfQHAn4iQnA" target="_blank">
@@ -46,7 +52,7 @@
 			</div>
 			<div class="labels"><strong>Cats & Dogs</strong><br>Game</div>
 		</div>
-		<div class="works game video" id="punkbot" data-value="punkbot">
+		<div class="works design game video" id="punkbot" data-value="punkbot">
 			<div class="img-container">
 				<img src="img/punkbot.png">
 				<a href="https://drive.google.com/open?id=0Bxp0o-0dY_QuaWdjSFh6RzJIMlU" target="_blank">
@@ -58,19 +64,19 @@
 			</div>
 			<div class="labels"><strong>PunkBot</strong><br>Game</div>
 		</div>
-		<div class="works uiux" id="applewatch-dbs" data-value="applewatch-dbs">
+		<div class="works design uiux copy" id="applewatch-dbs" data-value="applewatch-dbs">
 			<div class="img-container">
 				<img src="img/applewatch-dbs.png">
-				<a href="img/applewatch-dbs-full.jpg" target="_blank">
+				<a href="https://blog.nus.edu.sg/mobileixd/2015/04/09/p3-dbs-mbanking/" target="_blank">
 					<span class="fa-stack fa-2x img-overlay">
 						<i class="fas fa-square fa-stack-2x"></i>
-						<i class="far fa-file-image fa-stack-1x fa-inverse"></i>
+						<i class="fas fa-external-link-alt fa-stack-1x fa-inverse"></i>
 					</span>
 				</a>
 			</div>
 			<div class="labels"><strong>DBS Apple Watch App</strong><br>UX Mockup</div>
 		</div>
-		<div class="works uiux video" id="wherenus" data-value="wherenus">
+		<div class="works design uiux video" id="wherenus" data-value="wherenus">
 			<div class="img-container">
 				<img src="img/wherenus.png">
 				<a href="https://www.youtube.com/watch?v=hpW402-23h4" target="_blank">
@@ -82,7 +88,7 @@
 			</div>
 			<div class="labels"><strong>WhereNUS</strong><br>Mobile App Concept</div>
 		</div>
-		<div class="works uiux video" id="parallelpaths" data-value="parallelpaths">
+		<div class="works design uiux video" id="parallelpaths" data-value="parallelpaths">
 			<div class="img-container">
 				<img src="img/parallelpaths.png">
 				<a href="https://drive.google.com/open?id=0Bxp0o-0dY_QuTFVYOTRnb2wxRms" target="_blank">
@@ -130,7 +136,7 @@
 			</div>
 			<div class="labels"><strong>The Book of (non) Choices</strong><br>Interactive Digital Book</div>
 		</div>
-		<div class="works game link" id="paintball" data-value="paintball">
+		<div class="works design game link" id="paintball" data-value="paintball">
 			<div class="img-container">
 				<img src="img/paintball.png">
 				<a href="http://a0118870.github.io/paintballgame/" target="_blank">
@@ -142,7 +148,7 @@
 			</div>
 			<div class="labels"><strong>Paintball Master Challenge</strong><br>Game</div>
 		</div>
-		<div class="works uiux" id="makeawish" data-value="makeawish">
+		<div class="works design uiux" id="makeawish" data-value="makeawish">
 			<div class="img-container">
 				<img src="img/makeawish.png">
 				<a href="http://a0118870.github.io/makeawish/" target="_blank">
@@ -154,7 +160,7 @@
 			</div>
 			<div class="labels"><strong>Make-A-Wish Foundation Wish Portal</strong><br>Website Mockup</div>
 		</div>
-		<div class="works film video" id="unspokenwords" data-value="unspokenwords">
+		<div class="works design film video" id="unspokenwords" data-value="unspokenwords">
 			<div class="img-container">
 				<img src="img/unspokenwords.png">
 				<a href="https://www.youtube.com/watch?v=i8dUQfPS-mA" target="_blank">
@@ -166,7 +172,7 @@
 			</div>
 			<div class="labels"><strong>Unspoken Words</strong><br>Short Film</div>
 		</div>
-		<div class="works film video" id="heartandsole" data-value="heartandsole">
+		<div class="works design film video" id="heartandsole" data-value="heartandsole">
 			<div class="img-container">
 				<img src="img/heartandsole.png">
 				<a href="https://drive.google.com/open?id=0By7lsysCjNquZE1Db1BUYURXNTg" target="_blank">
@@ -190,7 +196,7 @@
 			</div>
 			<div class="labels"><strong>Make-A-Wish Foundation Folder</strong><br>Brochure Mockup</div>
 		</div>
-		<div class="works game link" id="thejumper" data-value="thejumper">
+		<div class="works design game link" id="thejumper" data-value="thejumper">
 			<div class="img-container">
 				<img src="img/thejumper.png">
 				<a href="https://drive.google.com/open?id=1rzkVIp6BnEIAIph_AL8GmukMa4YQjhQC" target="_blank">
@@ -202,6 +208,44 @@
 			</div>
 			<div class="labels"><strong>The Jumper</strong><br>Game</div>
 		</div>
+<!-- writing -->
+		<div class="works copy link" id="rbcopy" data-value="rbcopy">
+			<div class="img-container">
+				<img src="img/rbcopy.png">
+				<a href="https://drive.google.com/open?id=0BwaufG0XMnqCT0NBbVF4ZzdnN28" target="_blank">
+					<span class="fa-stack fa-2x img-overlay">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fas fa-external-link-alt fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+			<div class="labels"><strong>Random Blends 2016</strong><br>Copywriting</div>
+		</div>
+		<div class="works copy link" id="appreview1" data-value="appreview1">
+			<div class="img-container">
+				<img src="img/appreview1.png">
+				<a href="https://blog.nus.edu.sg/mobileixd/2015/01/31/app-review-twitch/" target="_blank">
+					<span class="fa-stack fa-2x img-overlay">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fas fa-external-link-alt fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+			<div class="labels"><strong>App UI/UX Review</strong><br>Writing</div>
+		</div>
+		<div class="works copy link" id="appreview2" data-value="appreview2">
+			<div class="img-container">
+				<img src="img/appreview2.png">
+				<a href="https://blog.nus.edu.sg/mobileixd/2015/02/28/app-review-posb-mbanking/" target="_blank">
+					<span class="fa-stack fa-2x img-overlay">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fas fa-external-link-alt fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+			<div class="labels"><strong>App UI/UX Review</strong><br>Writing</div>
+		</div>
+	</div>
 	</div>
 	<div class="footer"><p>Contact: alden@u.nus.edu
 </body>

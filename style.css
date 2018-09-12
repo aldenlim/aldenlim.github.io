@@ -47,7 +47,7 @@ a {
 }
 
 .logo img {
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -58,6 +58,40 @@ a {
 	justify-content: space-around;
 }
 
+.filter {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.filter a {
+
+}
+
+.filter-options {
+	font-family: 'Cairo', sans-serif;
+	font-size: 1.5em;
+	background-color: none;
+	margin: 0.5vw;
+	border: dashed;
+	border-radius: 0.7em;
+	border-width: 0.1em;
+	text-decoration: none;
+	padding: 0px 5px;
+	border-color: darkgrey;
+	outline: none;
+	cursor: pointer;
+}
+
+.filter-options:hover {
+	border-color: black;
+}
+
+.active {
+	background-color: #000;
+	color: #fff;
+	border-color: black;
+}
 .works {
 	height: 350px;
 	width: 300px;
